@@ -23,7 +23,7 @@ window.geometry("200x400")
 """
 A window actually has an infinite running while loop while
 it checks to see if any of the features of the window (buttons,
-text entry, etc) are being mainpulated.  These features are also
+text entry, etc) are being manipulated.  These features are also
 called WIDGETS, and we'll see how they can be added in the next few
 files.
 
