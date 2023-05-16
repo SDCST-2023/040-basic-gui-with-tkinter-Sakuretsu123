@@ -2,7 +2,7 @@
 import tkinter as tk 
 from tkinter import *
 window = tk.Tk()
-
+window.geometry("400x210")
 #title
 window.title("T-Town Veterinary Clinic Database")
 
@@ -40,7 +40,7 @@ searchbox = tk.Entry(window,text="", width=20)
 labelphoto.place(x=20,y=10)
 labelname.place(x=32,y=120)
 labeltype.place(x=104,y=120)
-labelbreed.place(x=170,y=120)
+labelbreed.place(x=173,y=120)
 labelowner.place(x=238,y=120)
 labelbirthdate.place(x=320,y=120)
 
